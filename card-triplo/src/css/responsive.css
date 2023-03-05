@@ -1,0 +1,14 @@
+@media(max-width: 900px){
+    main.container{
+        margin: 40px 0;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+
+    .card.card1{
+        border-radius: 12px 12px 0px 0px;
+    }
+    .card.card3{
+        border-radius: 0px 0px 12px 12px;
+    }
+}

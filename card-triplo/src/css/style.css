@@ -1,0 +1,78 @@
+html{
+    font-size: 10px;
+}
+
+body{
+    font-size: 1.5rem;
+}
+
+main.container{
+    display: flex;
+    border-radius: 12px;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .card{
+    width: 300px;
+    padding: 20px 40px;
+    background-color: aqua;
+}
+
+.card img{
+    margin: 30px 0;
+}
+
+.card h1{
+    color: hsl(0, 0%, 100%);
+    text-transform:uppercase ;
+    font-weight: 700;
+    font-size: 30px;
+    font-family: 'Big Shoulders Display', cursive;
+    margin-bottom: 30px;
+}
+
+.card p{
+    color: hsla(0, 0%, 100%, 0.65);
+    font-size: 15px;
+    font-family: 'Lexend Deca', sans-serif;
+    margin-bottom: 70px;
+    line-height: 1.7;
+}
+
+.card button{
+    border: none;
+    border-radius: 30px;
+    padding: 15px 30px;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+
+.card1 button{
+    color: #e38826 ;
+}
+
+.card2 button{
+    color: hsl(184, 100%, 22%) ;
+}
+
+.card3 button{
+    color: hsl(179, 100%, 13%) ;
+}
+
+
+.card.card1{
+    background-color: #e38826 ;
+    border-radius: 12px 0px 0px 12px ;
+}
+
+
+.card.card2{
+    background-color: hsl(184, 100%, 22%) ;
+}
+
+.card.card3{
+    background-color: hsl(179, 100%, 13%) ;
+    border-radius: 0px 12px 12px 0px ;
+}
