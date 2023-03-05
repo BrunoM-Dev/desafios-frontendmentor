@@ -1,0 +1,37 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(212, 45%, 89%);
+    width: 100vw;
+    height: 100vh;
+}
+
+.card{
+    width: max-content;
+    border-radius: 15px;
+    background-color: hsl(0, 0%, 100%);
+    text-align: center;
+    padding: 15px;
+}
+
+.card img{
+    width: 250px;
+    height: 260px;
+    border-radius: 12px;
+    margin-bottom: 20px;
+}
+
+.card h3{
+    color: hsl(218, 44%, 22%);
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.card p{
+    color: hsl(220, 15%, 55%);
+    font-size: 15px;
+    font-weight: 400;
+    padding-bottom: 20px;
+}
